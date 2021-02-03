@@ -1,0 +1,21 @@
+.projetos {
+    h1 {
+        margin: 50px 0 30px 0;
+    }
+
+    .projeto {
+        margin-bottom: 30px;
+
+        .image {
+            height: 200px;
+            background-color: grey;
+        }
+
+        a {
+            button {
+                width: 100%;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

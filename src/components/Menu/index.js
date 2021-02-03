@@ -10,7 +10,7 @@ export default function Menu({ menuColor }) {
             <Container>
                 <ul>
                     <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/skills">Skills</Link></li>
+                    <li><Link to="/skills">Habilidades</Link></li>
                     <li><Link to="/projetos">Projetos</Link></li>
                 </ul>
             </Container>
