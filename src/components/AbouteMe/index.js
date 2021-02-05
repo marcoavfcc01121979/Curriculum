@@ -9,13 +9,14 @@ export default function AbouteMe() {
     return(
         <Container className="aboute-me">
             <p>
-                Me chamo Marco Antonio Veloso Ferreira formato em ciencias da 
+                Me chamo Marco Antonio Veloso Ferreira formato em ciências da 
                 computação pela faculdade CEUT em 2016 moro em Teresina - PI 
-                casado, pai de um casal de filhos atualmente trabalho no 
-                desenvolvimento de sistemas web, sites, landing pages, blog, 
-                ecommerce ultilizo as seguintes ferramentas no desenvolvimento 
-                gatysby, react, nodejs, strapi e etc. Trabalho com intuito na 
-                transformação num mundo melhor e mais justo.
+                casado, pai de um casal de filhos atualmente sou web design e 
+                trabalho no desenvolvimento de sistemas web, sites, landing pages,
+                blog, ecommerce etc. utilizo as seguintes ferramentas no 
+                desenvolvimento com gatysby, react, nodejs,nextjs, strapi, 
+                graphql e etc. Trabalho com intuito na transformação num mundo 
+                melhor e mais justo.
             </p>
             <hr />
 

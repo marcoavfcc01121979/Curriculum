@@ -2,6 +2,9 @@ import React from "react"
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 
 import BasicLayout from "../layouts/BasicLayout"
+
+import projetos from '../../utils/projetos'
+
 import './projetos.scss'
 
 export default function Projetos() {
@@ -11,20 +14,22 @@ export default function Projetos() {
         <h1>Projetos</h1>
 
         <Row>
-          <Col xs={12} sm={4} className="projeto">
-            <Card>
-              <div className="image" />
-              <Card.Body>
-                <Card.Title>Google</Card.Title>
-                <Card.Text>
-                  marco ferreira
-                </Card.Text>
-                <a href="#" target="_blank">
-                  <Button variant="primary">Ver projeto</Button>
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
+          {projetos.map((projeto, index) => (
+            <Col key={index} xs={12} sm={4} className="projeto">
+              <Card>
+                <div className="image" style={{ backgroundImage: `url("${projeto.image}")` }} />
+                <Card.Body>
+                  <Card.Title>{projeto.title}</Card.Title>
+                  <Card.Text>
+                    {projeto.description}
+                  </Card.Text>
+                  <a href={projeto.url} target="_blank">
+                    <Button variant="primary">Ver projeto</Button>
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
         </Row>
       </Container>
     </BasicLayout>
