@@ -3,8 +3,15 @@ import Blog from '../src/images/WhatsApp1.jpeg';
 import BlogPessoal from '../src/images/WhatsApp2.jpeg';
 import bloge from '../src/images/blog-e.png';
 import bloge1 from '../src/images/bloge.png';
+import bickcraft from '../src/images/bickcraft.png'
 
 export default [
+    {
+        title: "Bickcraft",
+        description: "Site institucional responsivo e statico desenvolvido com js, html5 e css3",
+        url: "https://bickcraft.netlify.app/",
+        image: bickcraft
+    },
     {
         title: "Blog",
         description: "Blog desenvolvido com cms para administrar seus proprios conteudos",
