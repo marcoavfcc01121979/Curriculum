@@ -3,9 +3,16 @@ import Blog from '../src/images/WhatsApp1.jpeg';
 import BlogPessoal from '../src/images/WhatsApp2.jpeg';
 import bloge from '../src/images/blog-e.png';
 import bloge1 from '../src/images/bloge.png';
-import bickcraft from '../src/images/bickcraft.png'
+import bickcraft from '../src/images/bickcraft.png';
+import cafe from '../src/images/cafe.png';
 
 export default [
+    {
+        title: "Café",
+        description: "Site institucional responsivo e statico desenvolvido com gatsby",
+        url: "https://sitecafe.netlify.app/",
+        image: cafe
+    },
     {
         title: "Bickcraft",
         description: "Site institucional responsivo e statico desenvolvido com js, html5 e css3",
