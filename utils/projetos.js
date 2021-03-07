@@ -5,8 +5,15 @@ import bloge from '../src/images/blog-e.png';
 import bloge1 from '../src/images/bloge.png';
 import bickcraft from '../src/images/bickcraft.png';
 import cafe from '../src/images/cafe.png';
+import bloge2 from '../src/images/bloge2.png';
 
 export default [
+    {
+        title: "Blog",
+        description: "Blog desenvolvido com cms para administrar seus proprios conteudos",
+        url: "https://bloge2.netlify.app/",
+        image: bloge2
+    },
     {
         title: "Café",
         description: "Site institucional responsivo e statico desenvolvido com gatsby",
