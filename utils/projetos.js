@@ -6,8 +6,15 @@ import bloge1 from '../src/images/bloge.png';
 import bickcraft from '../src/images/bickcraft.png';
 import cafe from '../src/images/cafe.png';
 import bloge2 from '../src/images/bloge2.png';
+import onepage from '../src/images/onepage.png';
 
 export default [
+    {
+        title: "One page",
+        description: "Landing page para capturas de leed",
+        url: "https://onepagee.netlify.app/",
+        image: onepage
+    },
     {
         title: "Blog",
         description: "Blog desenvolvido com cms para administrar seus proprios conteudos",
