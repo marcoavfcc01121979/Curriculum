@@ -7,8 +7,15 @@ import bickcraft from '../src/images/bickcraft.png';
 import cafe from '../src/images/cafe.png';
 import bloge2 from '../src/images/bloge2.png';
 import onepage from '../src/images/onepage.png';
+import pacientes from '../src/images/pacientes.png';
 
 export default [
+    {
+        title: "Administrador de pacientes",
+        description: "Desenvolvidor com ReactJs",
+        url: "https://pacientese.netlify.app/",
+        image: pacientes
+    },
     {
         title: "One page",
         description: "Landing page para capturas de leed",
