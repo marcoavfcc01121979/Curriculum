@@ -8,8 +8,15 @@ import cafe from '../src/images/cafe.png';
 import bloge2 from '../src/images/bloge2.png';
 import onepage from '../src/images/onepage.png';
 import pacientes from '../src/images/pacientes.png';
+import ceep from '../src/images/ceep.png';
 
 export default [
+    {
+        title: "Cadastro de notas",
+        description: "Desenvolvidor com ReactJs",
+        url: "https://ceep.netlify.app/",
+        image: ceep
+    },
     {
         title: "Administrador de pacientes",
         description: "Desenvolvidor com ReactJs",
