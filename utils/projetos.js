@@ -9,8 +9,15 @@ import bloge2 from '../src/images/bloge2.png';
 import onepage from '../src/images/onepage.png';
 import pacientes from '../src/images/pacientes.png';
 import ceep from '../src/images/ceep.png';
+import orcamento from '../src/images/Orcamento.png';
 
 export default [
+    {
+        title: "Orçamento semanal",
+        description: "Desenvolvidor com ReactJs",
+        url: "https://orcamento1.netlify.app/",
+        image: orcamento
+    },
     {
         title: "Cadastro de notas",
         description: "Desenvolvidor com ReactJs",
