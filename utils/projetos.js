@@ -10,8 +10,15 @@ import onepage from '../src/images/onepage.png';
 import pacientes from '../src/images/pacientes.png';
 import ceep from '../src/images/ceep.png';
 import orcamento from '../src/images/Orcamento.png';
+import wordpress from '../src/images/wp.png';
 
 export default [
+    {
+        title: "Site Wordpress Agencia de viagens",
+        description: "Desenvolvidor em Wordpress",
+        url: "https://aluraviagen.xyz",
+        image: wordpress
+    },
     {
         title: "Orçamento semanal",
         description: "Desenvolvidor com ReactJs",
