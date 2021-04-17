@@ -11,8 +11,15 @@ import pacientes from '../src/images/pacientes.png';
 import ceep from '../src/images/ceep.png';
 import orcamento from '../src/images/Orcamento.png';
 import wordpress from '../src/images/wp.png';
+import seguro from '../src/images/seguro.png'
 
 export default [
+    {
+        title: "Cotação de seguro",
+        description: "Desenvolvidor em ReactJs ",
+        url: "https://cotacaoseguro.netlify.app/",
+        image: seguro
+    },
     {
         title: "Site Wordpress Agencia de viagens",
         description: "Desenvolvidor em Wordpress",
