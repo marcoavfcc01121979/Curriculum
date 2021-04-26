@@ -11,36 +11,43 @@ import pacientes from '../src/images/pacientes.png';
 import ceep from '../src/images/ceep.png';
 import orcamento from '../src/images/Orcamento.png';
 import wordpress from '../src/images/wp.png';
-import seguro from '../src/images/seguro.png'
+import seguro from '../src/images/seguro.png';
+import frase from '../src/images/frase.png';
 
 export default [
     {
+        title: "Frase aleatorias",
+        description: "Desenvolvido em ReactJs ",
+        url: "https://frase1.netlify.app/",
+        image: frase
+    },
+    {
         title: "Cotação de seguro",
-        description: "Desenvolvidor em ReactJs ",
+        description: "Desenvolvido em ReactJs ",
         url: "https://cotacaoseguro.netlify.app/",
         image: seguro
     },
     {
         title: "Site Wordpress Agencia de viagens",
-        description: "Desenvolvidor em Wordpress",
+        description: "Desenvolvido em Wordpress",
         url: "https://aluraviagen.xyz",
         image: wordpress
     },
     {
         title: "Orçamento semanal",
-        description: "Desenvolvidor com ReactJs",
+        description: "Desenvolvido com ReactJs",
         url: "https://orcamento1.netlify.app/",
         image: orcamento
     },
     {
         title: "Cadastro de notas",
-        description: "Desenvolvidor com ReactJs",
+        description: "Desenvolvido com ReactJs",
         url: "https://ceep.netlify.app/",
         image: ceep
     },
     {
         title: "Administrador de pacientes",
-        description: "Desenvolvidor com ReactJs",
+        description: "Desenvolvido com ReactJs",
         url: "https://pacientese.netlify.app/",
         image: pacientes
     },
