@@ -13,8 +13,15 @@ import orcamento from '../src/images/Orcamento.png';
 import wordpress from '../src/images/wp.png';
 import seguro from '../src/images/seguro.png';
 import frase from '../src/images/frase.png';
+import task from '../src/images/task.png';
 
 export default [
+    {
+        title: "Criação de tarefas",
+        description: "ReactJs e TypeScript ",
+        url: "https://ignite-o1.netlify.app/",
+        image: task
+    },
     {
         title: "Frase aleatorias",
         description: "Desenvolvido em ReactJs ",
