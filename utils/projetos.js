@@ -14,8 +14,15 @@ import wordpress from '../src/images/wp.png';
 import seguro from '../src/images/seguro.png';
 import frase from '../src/images/frase.png';
 import task from '../src/images/task.png';
+import dtmoney from '../src/images/dtmoney.png';
 
 export default [
+    {
+        title: "TODO lIST",
+        description: "ReactJs e TypeScript ",
+        url: "https://dtmoneyy.netlify.app/",
+        image: dtmoney
+    },
     {
         title: "Criação de tarefas",
         description: "ReactJs e TypeScript ",

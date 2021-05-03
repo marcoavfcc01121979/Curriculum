@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Container, Button } from 'react-bootstrap';
-import CV from '../../images/Marco_Ferreira_-_.pdf';
+import CV from '../../images/curriculum.pdf';
 
 import './styles.scss'
 
