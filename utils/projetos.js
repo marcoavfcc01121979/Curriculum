@@ -15,19 +15,22 @@ import seguro from '../src/images/seguro.png';
 import frase from '../src/images/frase.png';
 import task from '../src/images/task.png';
 import dtmoney from '../src/images/dtmoney.png';
+import aniversarios from '../src/images/aniversarios.png';
+import chamadas from '../src/images/chamadas.png';
+import passeio from '../src/images/passeio.png';
 
 export default [
     {
-        title: "TODO lIST",
-        description: "ReactJs e TypeScript ",
-        url: "https://dtmoneyy.netlify.app/",
-        image: dtmoney
+        title: "Sistemas de chamados",
+        description: "Desenvolvido em ReactJs com firebase",
+        url: "https://chamadas.netlify.app/",
+        image: chamadas
     },
     {
-        title: "Criação de tarefas",
-        description: "ReactJs e TypeScript ",
-        url: "https://ignite-o1.netlify.app/",
-        image: task
+        title: "Lugares interessante",
+        description: "Desenvolvido em ReactJs ",
+        url: "https://passeio.netlify.app/",
+        image: passeio
     },
     {
         title: "Frase aleatorias",
@@ -118,5 +121,23 @@ export default [
         description: "Site desenvolvido em gatsby e colocado em produção ultilizando o netlify.",
         url: "https://marcoavfcc-site.netlify.app/",
         image: Site
+    },
+    {
+        title: "Aniversario",
+        description: "Site desenvolvido em react e colocado em produção ultilizando o netlify.",
+        url: "https://aniversarios.netlify.app/",
+        image: aniversarios
+    },
+    {
+        title: "TODO lIST",
+        description: "ReactJs e TypeScript ",
+        url: "https://dtmoneyy.netlify.app/",
+        image: dtmoney
+    },
+    {
+        title: "Criação de tarefas",
+        description: "ReactJs e TypeScript ",
+        url: "https://ignite-o1.netlify.app/",
+        image: task
     },
 ]
