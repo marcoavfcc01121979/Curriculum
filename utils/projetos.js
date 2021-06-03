@@ -21,6 +21,12 @@ import passeio from '../src/images/passeio.png';
 
 export default [
     {
+        title: "TODO lIST",
+        description: "ReactJs e TypeScript ",
+        url: "https://dtmoneyy.netlify.app/",
+        image: dtmoney
+    },
+    {
         title: "Sistemas de chamados",
         description: "Desenvolvido em ReactJs com firebase",
         url: "https://chamadas.netlify.app/",
@@ -127,12 +133,6 @@ export default [
         description: "Site desenvolvido em react e colocado em produção ultilizando o netlify.",
         url: "https://aniversarios.netlify.app/",
         image: aniversarios
-    },
-    {
-        title: "TODO lIST",
-        description: "ReactJs e TypeScript ",
-        url: "https://dtmoneyy.netlify.app/",
-        image: dtmoney
     },
     {
         title: "Criação de tarefas",
