@@ -18,6 +18,7 @@ import dtmoney from '../src/images/dtmoney.png';
 import aniversarios from '../src/images/aniversarios.png';
 import chamadas from '../src/images/chamadas.png';
 import passeio from '../src/images/passeio.png';
+import avaliacoes from '../src/images/avaliacoes.png';
 
 export default [
     {
@@ -37,6 +38,12 @@ export default [
         description: "Desenvolvido em ReactJs ",
         url: "https://passeio.netlify.app/",
         image: passeio
+    },
+    {
+        title: "Avaliacoes",
+        description: "Desenvolvido em ReactJs ",
+        url: "https://avaliacoes.netlify.app/",
+        image: avaliacoes
     },
     {
         title: "Frase aleatorias",
